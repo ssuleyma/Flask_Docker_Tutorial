@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  dev-env:
+    image: ssuleyma/my-dev-env
+    volumes:
+      - /absolute/path/here
+    ports:
+      - 8888:8888
+    container_name: compose-dev-env
+  model-app:
+    build: FlaskAppDocker
+    ports:
+      - 5000:5000
+    container_name: compose-flask-app
