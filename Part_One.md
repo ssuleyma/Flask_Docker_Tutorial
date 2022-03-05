@@ -1,9 +1,9 @@
 ## Part 1: Experimenting and developing with Docker
-Part 1 assets:
+#### Part 1 assets
 - Dockerfile
 - Sample_Notebook.ipynb
 - Predict_Notebook.ipynb
-
+#### Steps
 1. Clone this repository & save to desktop
 2. Open Docker dashboard app
 3. Open command line (terminal)
